@@ -1,4 +1,13 @@
-const array = [];
+const form = document.querySelector(".input-container");
+const input = document.querySelector("#input");
+form.addEventListener("submit", function (event) {
+  event.preventDefault();
+  array = [];
+  escribo(input.value);
+  input.value = "";
+});
+
+let array = [];
 
 const escribo = (num) => {
   for (let i = num - 1; i > 0; i--) {
