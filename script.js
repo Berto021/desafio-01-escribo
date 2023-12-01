@@ -1,13 +1,13 @@
-const form = document.querySelector(".input-container");
-const input = document.querySelector("#input");
-const showArray = document.querySelector(".array");
-const showResult = document.querySelector(".result");
+const form = document.querySelector('.input-container');
+const input = document.querySelector('#input');
+const showArray = document.querySelector('.array');
+const showResult = document.querySelector('.result');
 
-form.addEventListener("submit", function (event) {
+form.addEventListener('submit', function (event) {
   event.preventDefault();
   array = [];
   escribo(input.value);
-  input.value = "";
+  input.value = '';
 });
 
 let array = [];
