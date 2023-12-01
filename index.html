@@ -17,10 +17,19 @@
       <p>Digite um número inteiro</p>
       <form class="input-container">
         <label for="input"
-          ><input id="input" min="0" autofocus type="number"
+          ><input
+            id="input"
+            oninput="value = value.replace(/[^0-9.+-/'*'()']/g, '')"
+            min="0"
+            autofocus
+            type="number"
         /></label>
         <button>Enviar</button>
       </form>
+      <div class="all-results">
+        <span class="array"></span>
+        <span class="result"></span>
+      </div>
       <img class="mascotes-img" src="assets/escribo-bg.png" alt="" />
     </div>
 

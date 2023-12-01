@@ -58,8 +58,19 @@ body {
   transition: 1s;
 }
 .mascotes-img {
-  margin-top: 5rem;
+  margin-top: 2rem;
   width: 50%;
+}
+
+.all-results {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.all-results {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 @media (max-width: 768px) {
   .main-container h1 {
@@ -77,5 +88,9 @@ body {
 
   .mascotes-img {
     width: 100%;
+  }
+  .all-results {
+    font-size: 0.8rem;
+    font-weight: 700;
   }
 }

@@ -1,5 +1,8 @@
 const form = document.querySelector(".input-container");
 const input = document.querySelector("#input");
+const showArray = document.querySelector(".array");
+const showResult = document.querySelector(".result");
+
 form.addEventListener("submit", function (event) {
   event.preventDefault();
   array = [];
@@ -15,7 +18,9 @@ const escribo = (num) => {
       array.push(i);
     }
   }
-  console.log(array);
+
   const total = array.reduce((acc, value) => acc + value);
-  console.log(total);
+
+  showArray.innerHTML = `Números válidos: ${array}`;
+  showResult.innerHTML = `Resultado do somatório:  ${total}`;
 };
