@@ -31,12 +31,14 @@ body {
 }
 .input-container input {
   margin-top: 1rem;
-  width: 100px;
-  height: 40px;
+  width: 6.25rem;
+  height: 2rem;
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px;
-  font-size: 14px;
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 2rem;
   color: #333;
 }
 .input-container button {
@@ -50,6 +52,30 @@ body {
   font-size: 14px;
   cursor: pointer;
 }
+.input-container button:hover {
+  color: #f7d9bc;
+  background-color: #e58628;
+  transition: 1s;
+}
 .mascotes-img {
   margin-top: 3rem;
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .main-container h1 {
+    font-size: 2rem;
+  }
+  .main-container p {
+    font-size: 1rem;
+  }
+  .input-container input {
+    margin-top: 1rem;
+    width: 4rem;
+    height: 1.5rem;
+    font-size: 1.5rem;
+  }
+
+  .mascotes-img {
+    width: 70%;
+  }
 }
