@@ -26,7 +26,7 @@ o projeto se consiste em um desafio técnico para a vaga de estágio da Escribo 
   <img src="/assets/commits-tree.png" alt="Banner-project" />
 </div>
 
-## 😎 Veja em produção: https://desafio-01-escribo-react.vercel.app/
+## 😎 Veja em produção: https://berto021.github.io/desafio-01-escribo-jsvanilla/
 
 ## ✔️ Resultado esperado
 
